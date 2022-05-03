@@ -1,0 +1,206 @@
+button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#box-logo{
+    height: 70px;
+    width: 70px;
+    /* outline: red solid 1px; */
+}
+#box-iniciar-juego{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30vh;
+    /* outline: red solid 1px; */
+}
+#box-agregar-palabra{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 25px;
+    /* outline: red solid 1px; */
+}
+
+#btn-iniciar-juego{
+    padding: 30px 50px 30px 50px;
+    border-radius: 24px;
+    background-color: #BC9391;
+    border: 0;
+    color: white;
+
+}
+#btn-agregar-palabra{
+    padding: 20px 40px 20px 40px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #BC9391;
+    color: #BC9391;
+    font-size: small;
+}
+/* ------------------------------------- HOVER ------------------------------------------- */
+#btn-iniciar-juego:hover{
+    padding: 30px 50px 30px 50px;
+    border-radius: 24px;
+    background-color: white;
+    border: 0;
+    color: #BC9391;
+    border: 1px solid #BC9391;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+#btn-agregar-palabra:hover{
+    padding: 20px 40px 20px 40px;
+    border-radius: 24px;
+    background-color: #BC9391;
+    border: 0;
+    color: white;
+    font-size: small;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+/* ------------------------------------- FOOTER ------------------------------------------- */
+footer{
+    background-color: #BC9391;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    margin: 0;
+    padding: 5px;
+    font-size: small;
+    color: white;
+
+}
+/* ------------------------------------- ESTILOS JUEGO.HTML ------------------------------------------- */
+    /* canvas{
+        outline: red solid 1px;
+    } */
+
+    #box-juego{
+        display: flex;
+       /*  outline: red solid 1px; */
+        padding: 10px;
+        justify-content: center;
+        align-self: center;
+    }
+    #box-controles{
+        margin-left: 100px;
+        /* outline: red solid 1px; */
+        padding: 10px;
+        justify-content: center;
+        align-self: center;
+    }
+    /* BOTONES ------------------------------------------- */
+
+    #btn-nueva_palabra{
+        padding: 15px 25px 15px 25px;
+        border-radius: 24px;
+        background-color: #BC9391;
+        border: 0;
+        color: white;
+        /* outline: red solid 1px; */
+
+    }
+    #btn-popup{
+        padding: 15px 25px 15px 25px;
+        border-radius: 24px;
+        background-color: #BC9391;
+        border: 0;
+        color: white;
+        /* outline: red solid 1px; */
+
+    }
+    #btn-me_rindo{
+        padding: 10px 20px 10px 20px;
+        border-radius: 24px;
+        background-color: white;
+        border: 1px solid #BC9391;
+        color: #BC9391;
+        font-size: small;
+        margin-left: 10PX;
+    }
+
+    /* BOTONES HOVER ------------------------------------------- */
+    
+    #btn-nueva_palabra:hover{
+        padding: 15px 25px 15px 25px;
+        border-radius: 24px;
+        background-color: white;
+        border: 0;
+        color: #BC9391;
+        border: 1px solid #BC9391;
+        transition: background-color .5s;
+        cursor: pointer;
+    }
+
+    #btn-popup:hover{
+        padding: 15px 25px 15px 25px;
+        border-radius: 24px;
+        background-color: white;
+        border: 0;
+        color: #BC9391;
+        border: 1px solid #BC9391;
+        transition: background-color .5s;
+        cursor: pointer;
+    }
+    
+    #btn-me_rindo:hover{
+        padding: 10px 20px 10px 20px;
+        border-radius: 24px;
+        background-color: #BC9391;
+        border: 0;
+        color: white;
+        font-size: small;
+        transition: background-color .5s;
+        cursor: pointer;
+    }
+    
+    /* PopUP ------------------------------------------- */
+
+    #popup-container{
+        display: flex;
+        background-color: gray;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        /* pointer-events: none; */
+        opacity: 0;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        
+    }
+    .show{
+        pointer-events: auto;
+        opacity: 1;
+    }
+
+    #popup{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: larger;
+        background-color: white;
+        width: 500px;
+        height: auto;
+        max-width: 100%;
+        padding: 30px 50px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        /* outline: red solid 1px;  */
+    }
+    
