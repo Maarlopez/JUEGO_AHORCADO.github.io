@@ -7,7 +7,7 @@ var btnPopup = document.getElementById("btn-popup");
 var btnMeRindo = document.getElementById("btn-me_rindo");
 
 /* Local storage */
-palabrasSecretas = ["MEXICO", "ARGENTINA", "BOLIVIA", "CHILE", "COLOMBIA", "PERU", "CANADA", "FRANCIA", "RUSIA"];
+palabrasSecretas = ["MEXICO", "BELICE", "SUECIA", "GRECIA", "CHIPRE", "KOSOVO", "SERBIA", "MONACO", "RUSIA",];
 localStorage.setItem("palabrasSecretas", JSON.stringify(palabrasSecretas)); 
 palabrasSecretasAlmacenadas = JSON.parse(localStorage.getItem("palabrasSecretas"));
 
